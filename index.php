@@ -5,7 +5,6 @@ $userIP=$_SERVER['REMOTE_ADDR'];
 $query="SELECT * FROM unique_visitors where date='$date' ";
 $result=mysqli_query($conn,$query);
 
-  
 if($result->num_rows==0){
    
  $insertQuery="insert into unique_visitors(date,ip) values('$date','$userIP')";
@@ -19,7 +18,5 @@ if($result->num_rows==0){
        mysqli_query($conn,$updateQuery);
    } 
 }
-
-
 
 ?>
