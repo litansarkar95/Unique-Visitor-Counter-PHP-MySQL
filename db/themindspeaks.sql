@@ -35,7 +35,6 @@ CREATE TABLE `unique_visitors` (
 --
 -- Dumping data for table `unique_visitors`
 --
-
 INSERT INTO `unique_visitors` (`date`, `ip`, `views`) VALUES
 ('2021-02-04', '::1', 1),
 ('2021-02-12', '3::1', 2),
