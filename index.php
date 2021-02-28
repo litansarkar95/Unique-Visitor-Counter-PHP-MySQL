@@ -1,5 +1,6 @@
 <?php
 $conn=mysqli_connect("localhost","root","","themindspeaks");
+
  $date=date("Y-m-d");
 $userIP=$_SERVER['REMOTE_ADDR'];
 $query="SELECT * FROM unique_visitors where date='$date' ";
