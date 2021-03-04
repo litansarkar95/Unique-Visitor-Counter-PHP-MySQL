@@ -2,7 +2,6 @@
 -- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
-
 -- Host: 127.0.0.1
 -- Generation Time: Feb 15, 2021 at 04:37 AM
 -- Server version: 10.4.11-MariaDB
@@ -17,7 +16,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Database: `themindspeaks`
 --
