@@ -23,6 +23,8 @@ SET time_zone = "+00:00";
 -- Table structure for table `unique_visitors`
 --
 
+
+
 CREATE TABLE `unique_visitors` (
   `date` date NOT NULL,
   `ip` text DEFAULT NULL,
@@ -42,6 +44,7 @@ INSERT INTO `unique_visitors` (`date`, `ip`, `views`) VALUES
 --
 -- Indexes for dumped tables
 --
+
 
 --
 -- Indexes for table `unique_visitors`
