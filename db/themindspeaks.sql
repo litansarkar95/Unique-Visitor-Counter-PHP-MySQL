@@ -21,8 +21,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 --
 -- Table structure for table `unique_visitors`
---
-
+-
 
 
 CREATE TABLE `unique_visitors` (
